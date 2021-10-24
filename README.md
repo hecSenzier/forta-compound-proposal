@@ -34,3 +34,29 @@ This agent alert when compound governance propsal has action
   }
 }
 ```
+
+- 0x5852a29fcb7b5fcc52bfb19235a2ad87687e6b16478b742054163e8b9c490e62
+
+```js
+{
+  "name": "Compound governance",
+  "description": "Vote cast - ProposalId 65",
+  "alertId": "COMPOUND-4",
+  "protocol": "ethereum",
+  "severity": "Medium",
+  "type": "Info",
+  "metadata": {
+    "proposalId": "65",
+    "support": "2",
+    "voter": "0x6626593c237f530d15ae9980a95ef938ac15c35c",
+    "votes": "1.26082429625124603868793e+23"
+  }
+}
+```
+
+## Agent Id
+
+Agent Id
+```
+0xc2e9bd153a531de86c6b2b4b2e17267178ee3d3b3298db63928ce458d8dd2f11
+```
