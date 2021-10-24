@@ -10,6 +10,8 @@ export const PROPOSAL_EXECUTED_EVENT_SIG = 'ProposalExecuted(uint256)';
 
 export const PROPOSAL_QUEUED_EVENT_SIG = 'ProposalQueued(uint256,uint256)';
 
+export const VOTE_CAST_EVENT_SIG = 'VoteCast(address,uint256,uint8,uint256,string)';
+
 export const ALERT_ID = 'COMPOUND-4';
 
 export const AGENT_NAME = 'Compound governance';
@@ -19,4 +21,5 @@ export const AGENT_DESCRIPTIONS = {
   [keccak256(PROPOSAL_CANCELED_EVENT_SIG)]: 'Proposal canceled',
   [keccak256(PROPOSAL_EXECUTED_EVENT_SIG)]: 'Proposal executed',
   [keccak256(PROPOSAL_QUEUED_EVENT_SIG)]: 'Proposal queued',
+  [keccak256(VOTE_CAST_EVENT_SIG)]: 'Vote cast',
 }
